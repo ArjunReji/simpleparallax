@@ -1,5 +1,5 @@
 *{
-  font-family: "Protest Guerrilla", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -17,12 +17,18 @@ body{
   z-index: 1000;
 }
 
+#home div{
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .parallax{
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .container2{
@@ -36,13 +42,16 @@ body{
 }
 
 #logo{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   text-decoration: none;
   list-style-type: none;
-  font-size: xxx-large;
+  font-size: 80px;
   color: red;
 }
 
 #headerItems{
+  margin-top: 20px;
+  margin-right: 10px;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -52,6 +61,7 @@ body{
 }
 
 #headerItems li a{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   color: aqua;
   text-decoration: none;
   margin-left: 20px;
